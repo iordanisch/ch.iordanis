@@ -145,9 +145,13 @@ i.fa.fa-code, i.fa.fa-paint-brush, i.fa.fa-cogs  {
   max-width:300px;
   margin:auto;
   }
-.morework, .aboutmebox, .contactbox, .footerbox {
+.morework, .aboutmebox, .footerbox {
     margin-top: 70px;
 }
+.contactbox{ 
+  margin:70px 0px 70px 0px;
+}
+
 .aboutme {
     background: #39a17a;
 }
