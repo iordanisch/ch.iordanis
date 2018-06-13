@@ -6,7 +6,8 @@ h1, h2, h3, h4 , h5 ,h6 {
   color:#2A3A3F;
 }
 h1 {
-  font-size:43px;
+  font-size:43px!important;
+  letter-spacing: 1px;
 }
 
 .darktext {
@@ -72,7 +73,7 @@ span {
 }
 
 .header {
-  background: #000 url("https://www.dropbox.com/s/g58le6y3ksv3mtu/mockup.jpg?dl=1") center no-repeat fixed; 
+  background: #000 url("https://www.dropbox.com/s/g58le6y3ksv3mtu/mockup.jpg?dl=1") fixed; 
 height:700px;
   margin-top:-100px;
 }
@@ -99,7 +100,7 @@ height:700px;
   transition: 1s;
   font-size: 18px;
      }
-i.fa.fa-code, i.fa.fa-paint-brush, i.fa.fa-cogs  {
+i.fa.fa-code, i.fa.fa-paint-brush, i.fa.fa-cogs {
   font-size:60px;
   color:#39a17a;
   margin-bottom:15px;
@@ -107,8 +108,50 @@ i.fa.fa-code, i.fa.fa-paint-brush, i.fa.fa-cogs  {
 .skills {
     margin-top: 110px;
 }
-.skillbox {
+.flex-box-skills {
     margin-top: 78px;
+    display: flex;
+     margin-bottom: 110px;
+ justify-content: space-between;
+}
+
+.first, .second, .third {
+width: 30%;
+box-sizing: border-box;
+}
+ 
+.flex-portbox, .flex-container {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.port-first, .port-second, .flex-ski-one, .flex-ski-two {
+padding-bottom: 110px;
+width: 45%;
+box-sizing: border-box;
+}
+
+.flex-more {
+display: flex;
+margin-bottom: 110px;
+  justify-content: space-between;
+}
+
+.more-one, .more-two, .more-three {
+width: 30%;
+box-sizing: border-box;
+}
+
+.about-flex {
+display: flex;
+margin-bottom: 110px;
+  justify-content: space-between;
+}
+
+.about-one, .about-two{
+width: 45%;
+box-sizing: border-box;
 }
 
 .row {
@@ -138,9 +181,7 @@ i.fa.fa-code, i.fa.fa-paint-brush, i.fa.fa-cogs  {
   background:#39a17a;
   transition: 1s;
   }
-.portbox {
-    margin-top: 90px;
-}
+
 .fixedwidth {
   max-width:300px;
   margin:auto;
