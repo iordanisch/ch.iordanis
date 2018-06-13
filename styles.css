@@ -206,3 +206,59 @@ box-sizing: border-box;
     margin-bottom: 20px;
 }
 
+.mob-nav-button {
+  display:none;
+}
+
+/* Mobile styling */
+@media (max-width:600px) {
+.headerbox, .nav-button {
+display: none;
+}
+.navbar{
+position: relative;
+right: 33px;
+
+}
+
+.fas{
+  color:#fff;
+  font-weight: 600;
+font-size: 25px;
+}
+.mob-nav-button {
+  display:block;
+}
+
+.flex-box-skills, .flex-portbox, .flex-container, .flex-more, .about-flex {
+    margin-top: 78px;
+    display: block;
+     
+     }
+
+.port-first, .port-second {
+width: 100%;
+}
+
+.first, .second, .third, .more-one, .more-two, .more-three, .about-one, .about-two {
+padding-bottom: 50px;
+width: 100%;
+}
+
+.leftalign, .darktext {
+  text-align: center;
+}
+
+.flex-ski-one {
+width: 100%;
+position: relative;
+top: 370px;
+}
+
+.flex-ski-two {
+width: 100%;
+order:2;
+position: relative;
+top: -370px;
+}
+}
