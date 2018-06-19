@@ -1,25 +1,57 @@
-<html>
-  <head><link rel="stylesheet" type="text/css" href="styles.css">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+<nav class="w3-sidebar w3-bar-block w3-card" id="mySidebar">
+  <div class="mob-nav">
+    <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large"><i class="far fa-times-circle"></i></span>
+    </ul>
+    </div>
+    <ul class="stack">
+      <li><a class="linkcolora" href="#skills">Skills</a></li>
+    <li><a class="linkcolora w3-bar-item w3-button" href="#portfolio">Portfolio</a></li>
+    <li><a class="linkcolora w3-bar-item w3-button" href="#about">About Me</a></li>
+    <li><a class="linkcolora w3-bar-item w3-button" href="#contact">Get In Touch</a></li>
+    <li><a class="linkcolora w3-bar-item w3-button" target="_blank" href="https://www.dropbox.com/s/0rdplwmk3mksk80/CV.pdf?dl=0">CV</a>  
+    </li>  
+    </nav>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <meta charset="utf-8">
-    <title>Iordanis Website</title>
+    <title>Welcome to my website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="my.js"></script>
+<script>closeSidebar();
+function openSidebar() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+function closeSidebar() {
+    document.getElementById("mySidebar").style.display = "none";
+}</script>
  </head>
 <body>
-   <div class="navbar">
+<div class="mob-but-men">
+<button class="w3-bar-item w3-button w3-xxxlarge w3-hover-theme" onclick="openSidebar()">&#9776;</button>
+</div>
+  <div class="navbar">
       <div class="buttons">
         <ul>
-          <li class="mob-nav-button"><i class="fas fa-bars"></i></li>
-           <li class="nav-button"><a class="linkcolor" href="#skills">Skills</a></li>
+          <li class="nav-button"><a class="linkcolor" href="#skills">Skills</a></li>
           <li class="nav-button"><a class="linkcolor" href="#portfolio">Portfolio</a></li>
           <li class="nav-button"><a class="linkcolor" href="#about">About Me</a></li>
           <li class="nav-button"><a class="linkcolor" href="#contact">Get In Touch</a></li>
           <li class="nav-button"><a class="linkcolor" target="_blank" href="https://www.dropbox.com/s/0rdplwmk3mksk80/CV.pdf?dl=0">CV</a></li>
           </ul>
     </div>
+      </div>
+      <div class="mobile-header">
+      <div class="mobile-header-under"><center><img class="img-responsive mob-logo" src="https://raw.githubusercontent.com/iordanisch/ch.iordanis/gh-pages/Logo%20mobile.png"></div></center>
+      <center><h2 class="mob-headertext"><span><strong>UI/UX</strong> </span>DESIGNER</h2><center>
+        <center><strong><h2 class="headertext">IORDANIS CHATZIEVGENIADIS</h1></strong></center>
+          <a class="cta" href=#contact>Yes, I'm available for hire.</a>
       </div>
       <div class="header">   
     <div class="headerbox text-center">
@@ -92,7 +124,7 @@
     <div class="container">
      <div class="morework">  
       <h1><strong>More Work</strong></h1>
-      <br>
+      <br>      
       <div class="flex-more">  
      <div class="more-one"> <a href="http://www.twwf.eu/" target="_blank"><center><img  class="img-responsive" src="https://drive.google.com/uc?export=download&id=0B8XffBu06MTRZ3g5WTF4c2NhekU"></center></a><br>
        <p class="fixedwidth"><a href="http://www.twwf.eu/" target="_blank">Tropic World Wide Fish</a> website is a good example of a website template with an image rotator as the main focal point accompanied by the navigation and the logo design. </p>
@@ -103,7 +135,8 @@
       <div class="more-three"><a href="http://www.bakkerijvantoor.nl/" target="_blank"><center><img class="img-responsive"  src="https://drive.google.com/uc?export=download&id=0B8XffBu06MTROVBSLVU3LTRJOXc"></center></a><br>
         <p class="fixedwidth">By following the customer's instructions I designed a basic website. In this ocasion he wanted to use an texture-image for the header in which the logo has been included. </p>
     </div>
-      </div>
+      </div>   
+      
       </div>
       </div>
   </div>

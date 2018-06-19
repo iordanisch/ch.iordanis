@@ -206,9 +206,14 @@ box-sizing: border-box;
     margin-bottom: 20px;
 }
 
-.mob-nav-button {
+.mob-nav-button, .mobile-header-under, .mobile-header, .mob-nav {
   display:none;
 }
+
+.mob-but-men{
+  display: none;
+}
+
 
 /* Mobile styling */
 @media only screen and  (max-width:600px) {
@@ -226,15 +231,28 @@ right: 33px;
   font-weight: 600;
 font-size: 25px;
 }
-.mob-nav-button {
+.mob-nav-button, .mobile-header-under, .mobile-header {
   display:block;
+}
+.mobile-header {
+position: relative;
+top:50px;
+}
+
+.mobile-header-under {
+max-width: 150px;
+margin: auto;
 }
 
 .flex-box-skills, .flex-portbox, .flex-container, .flex-more, .about-flex {
     margin-top: 78px;
-    display: block;
-     
+    display: block;     
      }
+.mob-headertext{
+  margin-top: 50;
+  color:#fff;
+      font-size: 26px;
+}
 
 .port-first, .port-second {
 width: 100%;
@@ -260,5 +278,101 @@ width: 100%;
 order:2;
 position: relative;
 top: -370px;
+}
+
+.header {
+    background: #000 url("https://www.dropbox.com/s/g58le6y3ksv3mtu/mockup.jpg?dl=1") fixed;
+    height: 700px;
+    margin-top: -383.1px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    margin-top: -27px;
+
+}
+.cta,.cta:hover {
+  position: relative;
+    top: 80px;
+}
+
+
+.w3-bar-item.w3-button.w3-xxxlarge.w3-hover-theme {
+
+    font-size: 35px;
+    color: #fff;
+    border: none;
+    background: none;
+    position: relative;
+    padding-left: 22px;
+}
+
+.w3-button.w3-display-topright.w3-large {
+
+    float: right;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+
+}
+#mySidebar {
+    background: #333333;
+}
+
+.linkcolora {
+  color:#fff;
+}
+.linkcolora:hover {
+  color:#999;
+}
+
+ .mob-nav {
+background: #151515;
+display: block;
+
+  }
+
+
+ ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    display: grid;
+}
+
+li {
+
+    display: inline;
+    margin: 10px 15px 10px -15px;
+
+}
+
+.mob-logo {
+
+    padding: 10px;
+
+}
+
+ul {
+
+    margin-top: 0;
+    margin-bottom: 3px!important;
+
+}
+.far.fa-times-circle {
+
+    font-size: 25px;
+
+}
+.stack{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.mob-but-men{
+  display: block;
 }
 }
