@@ -214,6 +214,9 @@ box-sizing: border-box;
   display: none;
 }
 
+.border{
+border-radius: 10px;
+}
 
 /* Mobile styling */
 @media only screen and  (max-width:600px) {
