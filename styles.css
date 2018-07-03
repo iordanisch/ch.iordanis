@@ -84,7 +84,7 @@ height:700px;
   padding:12px 23px 12px 23px;
   border-radius:50px;
   position:relative;
-  top:110px;
+  top:90px;
   font-size: 18px;
    }
 
@@ -94,7 +94,7 @@ height:700px;
   padding:12px 23px 12px 23px;
   border-radius:50px;
   position:relative;
-  top:110px;
+  top:90px;
   text-decoration:none;
   background:#39a17a;
   transition: 1s;
@@ -192,23 +192,7 @@ box-sizing: border-box;
   text-align:left;
 }
 
-.portlink{
-  font-size:18px;
-  color:#000;
-  border:1px solid #39a17a;
-  padding:12px 30px 12px 30px;
-  border-radius:50px;
-  font-family:Calibri;
-  color:#2A3A3F;
-}
 
-.portlink:hover {
- text-decoration:none;
-  color:#ffffff;
-  padding:12px 30px 12px 30px;
-  background:#39a17a;
-  transition: 1s;
-  }
 
 .visitweb {
   font-size:18px;
