@@ -288,11 +288,6 @@ border-radius: 10px;
 .headerbox, .nav-button, .testbox {
 display: none;
 }
-.navbar{
-position: relative;
-right: 33px;
-margin-top: -55px;
-}
 
 .fas{
   color:#fff;
@@ -365,15 +360,12 @@ top: -370px;
 .navbar {
     position: relative;
     min-height: 50px;
+    right: 33px;
     margin-bottom: 20px;
     border: 1px solid transparent;
-    margin-top: -27px;
+    margin-top: -55px;
 
 }
-
-
-
-
 
 .w3-bar-item.w3-button.w3-xxxlarge.w3-hover-theme {
 
