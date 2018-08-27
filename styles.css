@@ -291,7 +291,7 @@ display: none;
 .navbar{
 position: relative;
 right: 33px;
-
+margin-top: -55px;
 }
 
 .fas{
