@@ -1,41 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
-<nav class="w3-sidebar w3-bar-block w3-card" id="mySidebar">
-  <div class="mob-nav">
-    <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large"><i class="far fa-times-circle"></i></span>
-    </ul>
-    </div>
-    <ul class="stack">
-      <li><a class="linkcolora" href="#skills">Skills</a></li>
-    <li><a class="linkcolora w3-bar-item w3-button" href="#portfolio">Portfolio</a></li>
-    <li><a class="linkcolora w3-bar-item w3-button" href="#about">About Me</a></li>
-    <li><a class="linkcolora w3-bar-item w3-button" href="#contact">Get In Touch</a></li>
-    <li><a class="linkcolora w3-bar-item w3-button" target="_blank" href="https://www.dropbox.com/s/0rdplwmk3mksk80/CV.pdf?dl=0">CV</a>  
-    </li>  
-    </nav>
-
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="styles.css">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Welcome to my website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="my.js"></script>
-<script>closeSidebar();
-function openSidebar() {
-    document.getElementById("mySidebar").style.display = "block";
-}
-function closeSidebar() {
-    document.getElementById("mySidebar").style.display = "none";
-}</script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script src="my.js"></script>
  </head>
 <body>
-<div class="mob-but-men">
-<button class="w3-bar-item w3-button w3-xxxlarge w3-hover-theme" onclick="openSidebar()">&#9776;</button>
-</div>
+  <div id="atestbox" class="testbox">
+    <div id="TopButtona" class="TopButton"><a href="#atestbox"><i class="fas fa-caret-up"></i></a>
+    </div>
+    </div>
   <div class="navbar">
       <div class="buttons">
         <ul>
@@ -48,12 +28,27 @@ function closeSidebar() {
     </div>
       </div>
       <div class="mobile-header">
-      <div class="mobile-header-under"><center><img class="img-responsive mob-logo" src="https://raw.githubusercontent.com/iordanisch/ch.iordanis/gh-pages/Logo%20mobile.png"></div></center>
+      <div class="mobile-header-under"><center><img class="img-responsive mob-logo" src="https://raw.githubusercontent.com/iordanisch/ch.iordanis/gh-pages/Logo%20mobile.png">
+     </center> </div>
       <center><h2 class="mob-headertext"><span><strong>UI/UX</strong> </span>DESIGNER</h2><center>
         <center><strong><h2 class="headertext">IORDANIS CHATZIEVGENIADIS</h1></strong></center>
           <a class="cta" href=#contact>Yes, I'm available for hire.</a>
       </div>
-      <div class="header">   
+      </div>
+      <div class="header">  
+      <div class="mobile-nav-box">
+  <button type="button" class="w3-bar-item w3-button w3-xxxlarge w3-hover-theme" data-toggle="collapse" data-target="#demo">&#9776;</button>  
+  <div id="demo" class="collapse hbox">
+<ul class="stack">
+      <li><a class="linkcolora" href="#skills">Skills</a></li>
+    <li><a class="linkcolora w3-bar-item w3-button" href="#portfolio">Portfolio</a></li>
+    <li><a class="linkcolora w3-bar-item w3-button" href="#about">About Me</a></li>
+    <li><a class="linkcolora w3-bar-item w3-button" href="#contact">Get In Touch</a></li>
+    <li><a class="linkcolora w3-bar-item w3-button" target="_blank" href="https://www.dropbox.com/s/0rdplwmk3mksk80/CV.pdf?dl=0">CV</a>  
+    </li>
+    </ul>  
+</div>
+</div> 
     <div class="headerbox text-center">
         <center><img src="https://drive.google.com/uc?export=download&id=0B8XffBu06MTRd05KQTd0OWpCb0U"></center>
       <br>
@@ -65,9 +60,9 @@ function closeSidebar() {
       </div>
     </div>
   <div class="container">
-<div class="skills text-center">
-    <h1 id="skills" class="skills"><strong>My Skills</strong></h1>
-  <h3>I get involved through all the design process.</h3>
+    <div id="askills" class="skills text-center">
+      <h1 id="skills" class="skills"><strong>My Skills</strong></h1>
+       <h3>I get involved through all the design process.</h3>
   <div class="flex-box-skills">
        <div class="first"><i class="fa fa-code" aria-hidden="true"></i>
        <h2><strong>Coding</strong></h2>
@@ -92,14 +87,14 @@ function closeSidebar() {
         <h3>Want to see more of my work? <a class="mail" href="mailto:ch.iordanis@gmail.com"> Email me.</a> </h3>
         <div class="flex-portbox">
           <div class="port-first">
-       <h3 class="leftalign"><strong>Studio 336</strong></p>
-       <p class="leftalign"><strong>LOGO AND WEBSITE DESING FOR AN ARGEWEB CUSTOMER</strong> </p>
+       <h3 class="leftalign"><strong>Piranha Designs</strong></p>
+       <p class="leftalign"><strong>A QUICK DEMO FOR PIRANCHA DESINGS</strong> </p>
        <br>
-       <p class="leftalign">Studio 336 is a versatile luxurious music studio in which your own music performances come true. The studio provides music recording, exercise sessions and music lessons.</p>
+       <p class="leftalign">I was asked to create a responsive demo website following a mockup file. By using HTML, CSS, BOOSTRAP and JAVASCRIPT the mockup was replicated for desktop, mobile and tablets.</p>
        <br>
-          <a class="visitweb" href=" https://www.studio336.nl/" target="_blank"><strong>VISIT WEBSITE</strong></a>
+          <a class="visitweb" href="https://iordanisch.github.io/piranhadesigns/" target="_blank"><strong>VISIT WEBSITE</strong></a>
           </div>
-          <div class="port-second"><img class="img-responsive" src="https://raw.githubusercontent.com/iordanisch/ch.iordanis/gh-pages/studio.png" alt="Studio336"> 
+          <div class="port-second"><img class="img-responsive" src="https://raw.githubusercontent.com/iordanisch/ch.iordanis/gh-pages/piranha.png" alt="Studio336"> 
            </div>
             </div>
              </div>
@@ -113,7 +108,7 @@ function closeSidebar() {
       <div class="flex-ski-two"><h3 class="leftalign"><strong>Skivereniging</strong></p>
        <p class="leftalign"><strong>LOGO RECREATION AND WEBSITE DESING FOR A SKI RESORT IN THE NETHERLANDS FOR AN ARGEWEB CUSTOMER</strong> </p>
        <br>
-       <p class="leftalign">Do you live in the centre of  Holland and want to improve in a cozy atmosphere your skiing condition? Then you are at the right place.</p>
+       <p class="leftalign">This website shows a basic layout due to the extremely short period of time provided to design it and build it. To replicate the logo and work with the graphic I used the adobe suite and to build it I used HTML, CSS and BOOTSTRAP</p>
        <br>
           <a class="visitweb" href=" http://www.ski-mh.nl/" target="_blank"><strong>VISIT WEBSITE</strong></a>
        </div>
@@ -123,7 +118,7 @@ function closeSidebar() {
        <h3 class="leftalign"><strong>John Visser</strong></p>
        <p class="leftalign"><strong>ANOTHER ARGEWEB CUSTOMER THAT I DESIGNED THE WEBSITE AND THE LOGO AS WELL </strong> </p>
        <br>
-       <p class="leftalign">For this website I chose to add the logo on the left hand side in the navigation bar. The customer asked for a parallax effect instead of an image rotator. A slogan and two CTA buttons complement the header image.</p>
+       <p class="leftalign">By using HTML, CSS, and BOOTSTRAP and the adobe suite I designed and built this simplistic website in under eight hours due to the short deadline.</p>
        <br>
           <a class="visitweb" href="http://www.autobedrijfjohnvisser.nl/" target="_blank"><strong>VISIT WEBSITE</strong></a>
           </div>

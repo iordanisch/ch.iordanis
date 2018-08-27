@@ -72,6 +72,42 @@ span {
   margin-top:40px;
 }
 
+.TopButton {
+    top: 540px;
+position: fixed;
+right: 15px;
+}
+
+.testbox{
+  display: flex;
+width: 100%;
+justify-content: flex-end;
+
+}
+
+.fa-caret-up {
+    font-size: 40px;
+    color: #39a17a;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px #00000080;
+}
+
+.fa-caret-up:hover {
+    background: #39a17a;
+    color: #fff;
+    padding: 0px 14px 8px 13px;
+    border-radius: 50px;
+     transition: 1s;
+     font-size: 50px;
+     box-shadow: 2px 2px 4px #00000080;
+}
+
+.fa-arrow-alt-circle-up {
+    font-size: 50px;
+    color: #39a17a;
+    cursor: pointer;
+}
+
 .header {
   background: #000 url("https://www.dropbox.com/s/g58le6y3ksv3mtu/mockup.jpg?dl=1") fixed; 
 height:700px;
@@ -235,7 +271,7 @@ box-sizing: border-box;
     margin-bottom: 20px;
 }
 
-.mob-nav-button, .mobile-header-under, .mobile-header, .mob-nav {
+.mob-nav-button, .mobile-header-under, .mobile-header, .mob-nav, .mobile-nav-box {
   display:none;
 }
 
@@ -249,7 +285,7 @@ border-radius: 10px;
 
 /* Mobile styling */
 @media only screen and  (max-width:600px) {
-.headerbox, .nav-button {
+.headerbox, .nav-button, .testbox {
 display: none;
 }
 .navbar{
@@ -263,12 +299,20 @@ right: 33px;
   font-weight: 600;
 font-size: 25px;
 }
-.mob-nav-button, .mobile-header-under, .mobile-header {
+.mob-nav-button, .mobile-header-under, .mobile-header, .mobile-nav-box {
   display:block;
 }
 .mobile-header {
 position: relative;
 top:50px;
+margin-top: 73px;
+}
+
+.mobile-nav-box {
+    position: relative;
+    background: #00000080;
+    position:fixed;
+    width: 100%;
 }
 
 .mobile-header-under {

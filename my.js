@@ -12,3 +12,24 @@ $(document).ready(function(){
 	    });
 	});
 });
+
+
+
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 900) {
+    $('.TopButton').fadeIn();
+  } else {
+    $('.TopButton').fadeOut();
+      }
+});
+
+$(document).ready( function() {
+    $("#atestbox").hide(); //hide your div initially
+    var topOfOthDiv = $("#askills").offset().top;
+    $(window).scroll(function() {
+        if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
+            $("#atestbox").show(); //reached the desired point -- show div
+        }
+    });
+});
