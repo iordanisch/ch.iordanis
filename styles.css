@@ -295,7 +295,7 @@ border-radius: 10px;
 
 /* Mobile styling */
 @media only screen and  (max-width:600px) {
-.headerbox, .nav-button, .testbox {
+.headerbox, .nav-button, .testbox, .TopButtona {
 display: none;
 }
 
@@ -434,9 +434,7 @@ li {
 
 }
 
-.atestbox {
-  display: none;
-}
+
 
 ul {
 
