@@ -434,6 +434,10 @@ li {
 
 }
 
+.atestbox {
+  display: none;
+}
+
 ul {
 
     margin-top: 0;
