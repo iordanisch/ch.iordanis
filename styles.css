@@ -77,6 +77,7 @@ span {
 
 .buttons {
   margin-top:40px;
+  margin-left: -35px;
 }
 
 .TopButton {
@@ -379,9 +380,7 @@ top: -370px;
     margin-bottom: 20px;
     border: 1px solid transparent;
     margin-top: -27px;
-    margin-left: -35px;
-
-}
+   }
 
 .w3-bar-item.w3-button.w3-xxxlarge.w3-hover-theme {
 
