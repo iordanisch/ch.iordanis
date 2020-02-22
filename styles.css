@@ -121,6 +121,10 @@ justify-content: flex-end;
     cursor: pointer;
 }
 
+.navbar.container {
+    margin-left: -30px;
+}
+
 .header {
   background: #000 url("https://www.dropbox.com/s/g58le6y3ksv3mtu/mockup.jpg?dl=1") fixed; 
 height:700px;
@@ -373,6 +377,7 @@ top: -370px;
     margin-top: -383.1px;
 }
 
+
 .navbar {
     position: relative;
     min-height: 50px;
@@ -380,7 +385,6 @@ top: -370px;
     margin-bottom: 20px;
     border: 1px solid transparent;
     margin-top: -27px;
-    margin-left: -30px;
    }
 
 .w3-bar-item.w3-button.w3-xxxlarge.w3-hover-theme {
