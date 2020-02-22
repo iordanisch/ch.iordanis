@@ -380,11 +380,9 @@ top: -370px;
     margin-bottom: 20px;
     border: 1px solid transparent;
     margin-top: -27px;
+    margin-left: -30px;
    }
 
-.navbar.container {
-    margin-left: -30px;
-}
 .w3-bar-item.w3-button.w3-xxxlarge.w3-hover-theme {
 
     font-size: 35px;
