@@ -77,8 +77,7 @@ span {
 
 .buttons {
   margin-top:40px;
-  margin-left: -100px;
-}
+  }
 
 .TopButton {
     /*top: 540px;*/
@@ -383,6 +382,9 @@ top: -370px;
     margin-top: -27px;
    }
 
+.navbar.container {
+    margin-left: -30px;
+}
 .w3-bar-item.w3-button.w3-xxxlarge.w3-hover-theme {
 
     font-size: 35px;
