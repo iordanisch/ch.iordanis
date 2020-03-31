@@ -207,6 +207,7 @@ box-sizing: border-box;
     justify-content: space-between;
 }
 
+
 .port-first, .port-second, .flex-ski-one, .flex-ski-two {
 padding-bottom: 110px;
 width: 45%;
@@ -464,5 +465,8 @@ padding-bottom: 20px;
 }
 .mob-but-men{
   display: block;
+}
+.new-cor {
+margin-top: -115px;
 }
 }
