@@ -43,6 +43,6 @@ $(function() {
 
 
 
-$(document).ready(function () {
-    $('body.hidden').fadeIn(1500).removeClass('hidden');
-});
+// $(document).ready(function () {
+//     $('body.hidden').fadeIn(1500).removeClass('hidden');
+// });
