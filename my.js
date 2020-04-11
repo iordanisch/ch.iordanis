@@ -1,4 +1,4 @@
-//smootj scrolling
+//smooth scrolling
 $(document).ready(function(){
 	$('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
@@ -56,8 +56,7 @@ $(document).ready(function () {
     else
         ($('#navbarid').fadeIn(5000));
     ($('.headerbox').fadeIn(5000));
-    
-   
+   ($('.askills').fadeIn(5000));
 });
 
 
