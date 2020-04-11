@@ -54,9 +54,11 @@ setTimeout(function () {
 $(document).ready(function () {
    if ($('body').hasClass('loaded'));
     else
-        ($('#navbarid').fadeIn(5000));
-    ($('.headerbox').fadeIn(5000));
-   ($('#askills').fadeIn(5000));
+        ($('#navbarid').fadeIn(3000));
+    ($('.headerbox').fadeIn(3000));
+    ($('.skills').fadeIn(3000));
+    
+   
 });
 
 
