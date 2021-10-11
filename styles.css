@@ -326,7 +326,7 @@ border:1px solid #39a17a;
      }
 
 
-i.fa.fa-code, i.fa.fa-paint-brush, i.fa.fa-cogs {
+i.fa.fa-search, i.fa.fa-paint-brush, i.fa.fa-cogs, i.fas.fa-chart-pie {
   font-size:60px;
   color:#39a17a;
   margin-bottom:15px;
@@ -341,7 +341,14 @@ i.fa.fa-code, i.fa.fa-paint-brush, i.fa.fa-cogs {
  justify-content: space-between;
 }
 
+
 .first, .second, .third {
+width: 30%;
+box-sizing: border-box;
+padding-right: 30px;
+}
+
+.forth {
 width: 30%;
 box-sizing: border-box;
 }
@@ -396,7 +403,7 @@ box-sizing: border-box;
 
 
 
-.visitweb {
+.secondary {
   font-size:18px;
   color:#000;
   border:1px solid #39a17a;
@@ -405,12 +412,31 @@ box-sizing: border-box;
   font-family:Calibri;
   color:#2A3A3F;
   }
-.visitweb:hover {
+.secondary:hover {p
   text-decoration:none;
   color:#ffffff;
   padding:12px 30px 12px 30px;
   background:#39a17a;
   transition: 1s;
+  }
+
+.primary{
+  font-size:18px;
+  color:#fff;
+  padding:12px 30px 12px 30px;
+  background:#39a17a;
+  border-radius:50px;
+  font-family:Calibri;
+  }
+
+.primary:hover{
+  font-size:18px;
+  color:#fff;
+  padding:12px 30px 12px 30px;
+  background:#2b936c;
+  border-radius:50px;
+  font-family:Calibri;
+    transition: 1s;
   }
 
 .fixedwidth {
@@ -484,7 +510,7 @@ max-width: 150px;
 margin: auto;
 }
 
-.flex-box-skills, .flex-portbox, .flex-container, .flex-more, .about-flex {
+.flex-portbox, .flex-container, .flex-more, .about-flex {
     margin-top: 78px;
     display: block;     
      }
@@ -498,7 +524,7 @@ margin: auto;
 width: 100%;
 }
 
-.first, .second, .third, .more-one, .more-two, .more-three, .about-one, .about-two {
+.first, .second, .third, .forth, .more-one, .more-two, .more-three, .about-one, .about-two {
 padding-bottom: 50px;
 width: 100%;
 }
