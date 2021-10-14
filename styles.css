@@ -360,6 +360,12 @@ box-sizing: border-box;
 }
 
 
+.caselink, .sitelink{
+  display: inline-block;
+  margin-right: 15px;
+}
+
+
 .port-first, .port-second, .flex-ski-one, .flex-ski-two {
 padding-bottom: 110px;
 width: 45%;
@@ -474,6 +480,59 @@ box-sizing: border-box;
 .border{
 border-radius: 10px;
 }
+
+
+.smallerskills{
+  display: none;
+}
+
+
+/* Smaller screen size */
+@media only screen and  (max-width:991px) {
+.sitelink {
+margin-top: 50px;
+}
+
+.first, .second, .third, .forth {
+width: 100%;
+box-sizing: border-box;
+padding-right: 0px;
+}
+
+
+.flex-box-skills-mob-one {
+    display: flex;
+    margin-bottom: 60px;
+    margin-top: 78px;
+    justify-content: center;
+text-align: center;
+}
+
+.flex-box-skills-mob-two {
+    display: flex;
+    margin-bottom: 110px;
+     justify-content: center;
+text-align: center;
+}
+.smallerskills{
+  display: block;
+}
+
+.first-small, .third-small {
+    width: 45%;
+    padding-right: 10%;
+}
+
+.second-small, .forth-small {
+    width: 45%;
+        
+}
+.highskills{
+  display: none;
+}
+
+}
+
 
 /* Mobile styling */
 @media only screen and  (max-width:600px) {
