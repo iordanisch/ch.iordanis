@@ -366,11 +366,14 @@ box-sizing: border-box;
 }
 
 
-.port-first, .port-second, .flex-ski-one, .flex-ski-two {
+.port-first, .port-second, .flex-ski-one, .flex-ski-two, .port-first-lc, .port-second-lc {
 padding-bottom: 110px;
 width: 45%;
 box-sizing: border-box;
 }
+
+.flex-portbox > .port-second-lc{ order: 1; }
+.flex-portbox > .port-first-lc { order: 2; }
 
 .flex-more {
 display: flex;
@@ -530,6 +533,33 @@ text-align: center;
 .highskills{
   display: none;
 }
+.flex-portbox{
+  display: flex;
+  margin-top: 78px;
+  flex-direction: column;
+}
+.flex-portbox > .port-second{ order: 1; }
+.flex-portbox > .port-first { order: 2; }
+
+.flex-portbox > .port-second-lc{ order: 1; }
+.flex-portbox > .port-first-lc { order: 2; }
+
+
+.port-second, .port-first, .flex-ski-one, .flex-ski-two, .port-first-lc, .port-second-lc {
+  width: 100%;
+  text-align: center;
+}
+.leftalign, .darktext {
+  text-align: center;
+}
+.flex-container {
+        display: flex;
+        flex-direction: column;
+}
+.port-second, .port-second-lc {
+
+  padding-bottom: 20px;
+}
 
 }
 
@@ -561,15 +591,41 @@ margin-top: 73px;
     background: #00000080;
     position:fixed;
     width: 100%;
-    z-index: 100;
+    top: 0px;
 }
+
+.port-second, .port-second-lc {
+
+  padding-bottom: 20px;
+}
+
 
 .mobile-header-under {
 max-width: 150px;
 margin: auto;
 }
 
-.flex-portbox, .flex-container, .flex-more, .about-flex {
+
+.first-small, .third-small {
+    width: 100%;
+    padding-right: 0%;
+}
+.flex-box-skills-mob-one {
+    display: block;
+    margin-bottom: 60px;
+    margin-top: 78px;
+    justify-content: center;
+text-align: center;
+}
+
+.flex-box-skills-mob-two {
+    display: block;
+    margin-bottom: 110px;
+     justify-content: center;
+text-align: center;
+}
+
+.flex-container, .flex-more, .about-flex {
     margin-top: 78px;
     display: block;     
      }
@@ -578,6 +634,15 @@ margin: auto;
   color:#fff;
       font-size: 26px;
 }
+
+.flex-portbox{
+  display: flex;
+  margin-top: 78px;
+  flex-direction: column;
+}
+
+.flex-portbox > .port-second{ order: 1; }
+.flex-portbox > .port-first { order: 2; }
 
 .port-first, .port-second {
 width: 100%;
@@ -698,7 +763,7 @@ padding-bottom: 20px;
 .mob-but-men{
   display: block;
 }
-.new-cor {
+/*.new-cor {
 margin-top: -115px;
-}
+}*/
 }
