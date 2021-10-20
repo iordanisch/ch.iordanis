@@ -35,7 +35,9 @@ hr{
    border: 0.1px solid #e5e4e4;
 }
 
-
+body{
+  font-family: Open Sans,Montserrat,Helvetica,Arial,sans-serif;
+}
 
 
 #nav-icon3 {
