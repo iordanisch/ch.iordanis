@@ -342,17 +342,11 @@ i.fa.fa-search, i.fa.fa-paint-brush, i.fa.fa-cogs, i.fas.fa-chart-pie {
 }
 
 
-.first, .second, .third {
-width: 30%;
+.first, .second, .third, .forth {
+width: 23%;
 box-sizing: border-box;
-padding-right: 30px;
 }
 
-.forth {
-width: 30%;
-box-sizing: border-box;
-}
- 
 .flex-portbox, .flex-container {
     margin-top: 90px;
     display: flex;
