@@ -536,7 +536,6 @@ text-align: center;
 .flex-portbox > .port-second-lc{ order: 1; }
 .flex-portbox > .port-first-lc { order: 2; }
 
-
 .port-second, .port-first, .flex-ski-one, .flex-ski-two, .port-first-lc, .port-second-lc {
   width: 100%;
   text-align: center;
