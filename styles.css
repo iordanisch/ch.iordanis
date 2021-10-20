@@ -500,14 +500,14 @@ padding-right: 0px;
     display: flex;
     margin-bottom: 60px;
     margin-top: 78px;
-    justify-content: center;
+    justify-content: space-between;
 text-align: center;
 }
 
 .flex-box-skills-mob-two {
     display: flex;
     margin-bottom: 110px;
-     justify-content: center;
+     justify-content: space-between;
 text-align: center;
 }
 .smallerskills{
@@ -612,7 +612,7 @@ text-align: center;
 .flex-box-skills-mob-two {
     display: block;
     margin-bottom: 110px;
-     justify-content: center;
+     justify-content: space-between;
 text-align: center;
 }
 
