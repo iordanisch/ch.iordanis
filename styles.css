@@ -275,7 +275,7 @@ justify-content: flex-end;
 }
 
 #navbarid {
-    margin-left: 0px;
+    margin-left: 0px !important;
 }
 .header {
   background: #000 url("https://raw.githubusercontent.com/iordanisch/ch.iordanis/gh-pages/back-img.jpg") fixed; 
