@@ -202,6 +202,8 @@ display: none;
 .container {
   max-width:1170px;
   margin:auto;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
 }
 li{
   display:inline;
@@ -272,6 +274,9 @@ justify-content: flex-end;
     margin-left: -30px;
 }
 
+#navbarid {
+    margin-left: 0px;
+}
 .header {
   background: #000 url("https://raw.githubusercontent.com/iordanisch/ch.iordanis/gh-pages/back-img.jpg") fixed; 
 height:700px;
