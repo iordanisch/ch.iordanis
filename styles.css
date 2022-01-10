@@ -418,7 +418,7 @@ box-sizing: border-box;
   border:1px solid #39a17a;
   padding:12px 30px 12px 30px;
   border-radius:50px;
-  font-family:Calibri;
+  font-family: "Open Sans"!important;
   color:#2A3A3F;
   }
 .secondary:hover {p
@@ -435,7 +435,7 @@ box-sizing: border-box;
   padding:12px 30px 12px 30px;
   background:#39a17a;
   border-radius:50px;
-  font-family:Calibri;
+  font-family:Open Sans;
   }
 
 .primary:hover{
@@ -444,7 +444,7 @@ box-sizing: border-box;
   padding:12px 30px 12px 30px;
   background:#2b936c;
   border-radius:50px;
-  font-family:Calibri;
+  font-family:Open Sans;
     transition: 1s;
   }
 
