@@ -61,7 +61,7 @@ body{
   position: absolute;
   height: 5px;
   width: 68%;
-  background: #fff;
+  background: #0D5A67;
   border-radius: 9px;
   opacity: 1;
   left: 0;
@@ -135,12 +135,18 @@ body{
 
 .headerbox {
   position: absolute;
-   right: -1600px;
+  left:0;
+right:0;
+margin-left:auto;
+margin-right:auto;
+   top: 210px;
     -webkit-animation: slides 1.5s forwards;
     -webkit-animation-delay: 0.5s;
     animation: slides 1.5s forwards;
     animation-delay: 0.5s;
+    max-width:1170px;
 }
+
 
 @-webkit-keyframes slides {
     100% { right: 0; }
@@ -209,12 +215,6 @@ li{
   display:inline;
     margin:0px 15px 0px 15px;
 }
-.headerbox {
-  max-width:1170px;
-  margin:auto;
-  position:relative;
-  top: 210px;
-  }
 
 .headertext {
   color:#fff;
