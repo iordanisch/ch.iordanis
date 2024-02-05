@@ -134,7 +134,7 @@ body{
 }
 
 .headerbox {
-  position: relative;
+  position: absolute;
    right: -1600px;
     -webkit-animation: slides 1.5s forwards;
     -webkit-animation-delay: 0.5s;
