@@ -40,6 +40,9 @@ body{
 }
 
 
+
+
+
 #nav-icon3 {
   width: 60px;
   height: 45px;
@@ -131,6 +134,10 @@ body{
 
 @keyframes slide {
     100% { left: 0; }
+}
+
+.highskills{
+  padding-bottom: 110px;
 }
 
 .headerbox {
@@ -331,7 +338,7 @@ border:1px solid #39a17a;
      }
 
 
-i.fa.fa-search, i.fa.fa-paint-brush, i.fa.fa-cogs, i.fas.fa-chart-pie {
+i.fa.fa-search, i.fa.fa-paint-brush, i.fa.fa-cogs, i.fas.fa-chart-pie, i.fa.fa-rocket {
   font-size:60px;
   color:#39a17a;
   margin-bottom:15px;
@@ -342,16 +349,20 @@ i.fa.fa-search, i.fa.fa-paint-brush, i.fa.fa-cogs, i.fas.fa-chart-pie {
 .flex-box-skills {
     margin-top: 78px;
     display: flex;
-     margin-bottom: 110px;
+     margin-bottom: 40px;
  justify-content: space-between;
 }
 
 
-.first, .second, .third, .forth {
-width: 23%;
+.first, .second, .third {
+width: 32.3%;
 box-sizing: border-box;
 }
 
+.forth, .fifth {
+width: 49%;
+box-sizing: border-box;
+}
 .flex-portbox, .flex-container {
     margin-top: 90px;
     display: flex;
@@ -511,7 +522,7 @@ text-align: center;
 
 .flex-box-skills-mob-two {
     display: flex;
-    margin-bottom: 110px;
+    margin-bottom: 40px;
      justify-content: space-between;
 text-align: center;
 }
@@ -527,6 +538,13 @@ text-align: center;
     width: 45%;
         
 }
+.fifth-small{
+  margin:0 auto;
+  text-align: center;
+  padding-bottom: 110px;
+  max-width: 700px;
+}
+
 .highskills{
   display: none;
 }
@@ -616,7 +634,7 @@ text-align: center;
 
 .flex-box-skills-mob-two {
     display: block;
-    margin-bottom: 110px;
+    margin-bottom: 0px;
      justify-content: space-between;
 text-align: center;
 }
