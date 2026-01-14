@@ -40,10 +40,7 @@ body{
 }
 
 
-.mac-img.img-responsive {
-  height: 350px;
-  margin: auto;
-}
+
 
 
 #nav-icon3 {
@@ -676,7 +673,7 @@ width: 100%;
 }
 
 .leftalign, .darktext {
-  text-align: center;mac-img
+  text-align: center;
 }
 
 .flex-ski-one {
