@@ -1,28 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="icon" type="image/x-icon" href="favicon.ico">
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<title>Welcome to my website</title>
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r77/three.min.js"></script>
-		<script src="my.js"></script>
-	</head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery first (needed by Bootstrap JS) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r77/three.min.js"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Your JS -->
+    <script src="my.js"></script>
+
+    <!-- Your CSS last — wins over everything -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title>Welcome to my website</title>
+</head>
 	<body class="">
 		<div id="atestbox" class="testbox">
 			<div id="TopButtona" class="TopButton"><a href="#atestbox"><i class="fas fa-caret-up"></i></a>
 		</div>
 	</div>
-	<div class="navbar container" id="navbarid" style="display: none;">
+	<div class="navbar" id="navbarid" style="display: none;">
 		<div class="buttons">
 			<ul>
 				<li class="nav-button"><a class="linkcolor" href="https://iordanisch.github.io/ch.iordanis/">Home</a></li>
-				<li class="nav-button"><a class="linkcolor" href="#skills">Skills</a></li>
+				<li class="nav-button"><a class="linkcolor" href="#process">Design Process</a></li>
 				<li class="nav-button"><a class="linkcolor" href="#portfolio">Portfolio</a></li>
 				<li class="nav-button"><a class="linkcolor" href="#about">About Me</a></li>
 				<li class="nav-button"><a class="linkcolor" href="#contact">Get In Touch</a></li>
@@ -49,7 +67,7 @@
 		<div id="demo" class="hbox" style="display: none;">
 			<ul class="stack">
 				<li><a class="linkcolora" href="#home">Home</a></li>
-				<li><a class="linkcolora" href="#skills">Skills</a></li>
+				<li><a class="linkcolora" href="#process">Design Process</a></li>
 				<li><a class="linkcolora w3-bar-item w3-button" href="#portfolio">Portfolio</a></li>
 				<li><a class="linkcolora w3-bar-item w3-button" href="#about">About Me</a></li>
 				<li><a class="linkcolora w3-bar-item w3-button" href="#contact">Get In Touch</a></li>
@@ -71,73 +89,138 @@
 </div>
 <div class="loader section-right"></div>
 </div>
-<div class="container">
-<div id="askills" class="skills text-center" style="display: none;">
-	<h1 id="skills" class="skills"><strong>Design process</strong></h1>
-	<h3>I get involved through all the design process.</h3>
-	<div class="highskills">
-	<div class="flex-box-skills">
-		<div class="first"><i class="fa fa-search" aria-hidden="true"></i>
-			<h2><strong>1.Research</strong></h2>
-			<p class="skillstext">Everything starts with the comprehensive understanding of the project and its requirements. The next step is to gather information about the users using various methods such as user interviews, identifying user goals and a robust competitor analysis. </p>
-		</div>
-		<div class="second"><i class="fas fa-chart-pie"></i>
-			<h2><strong>2.Analysis</strong></h2>
-			<p class="skillstext">After gathering information and data, it’s time create user personas based on our research findings. Affinity mapping and empathy mapping would help to organise insights and data gathered, find hidden patterns and prioritize issues and solutions.
-		</div>
-		<div class="third"><i class="fa fa-paint-brush" aria-hidden="true"></i>
-			<h2><strong>3.Create</strong></h2>
-			<p class="skillstext">Using prototyping tools including Figma, Sketch, Invision and others is a way to give all the gathered information a basic shape by creating wireframes, lo-fi mockups and interactive prototypes and defining the hierarchy of the elements.
-</p>
-		</div>
-		</div>
-		<div class="flex-box-skills">
-		<div class=" forth"><i class="fa fa-cogs" aria-hidden="true"></i>
-			<h2><strong>4.Test</strong></h2>
-			<p class="skillstext">Testing can help to understand how successfully users carrying out tasks and is an essential part of the process. There are various usability testing methods to choose from in order to see if there are any flaws in the product, and see if the product meets user's expectations.</p>
-		</div>
 
-<div class=" fifth"><i class="fa far fa-rocket"></i>
-			<h2><strong>5.Launch</strong></h2>
-			<p class="skillstext">This phase involves deploying the product or feature to users, followed by continuous monitoring and performance assessment. Post-launch evaluation is conducted through the analysis of key metrics (such as those provided by tools like Amplitude and Hotjar) and the collection of user feedback. </p>
-		</div>
-		</div>
-	</div>
-	</div>
-	</div>
-<div class="smallerskills">
-	<div class="flex-box-skills-mob-one">
-		<div class="first first-small"><i class="fa fa-search" aria-hidden="true"></i>
-			<h2><strong>1.Research</strong></h2>
-			<p class="skillstext">Everything starts with the comprehensive understanding of the project and its requirements. The next step is to gather information about the users using various methods such as user interviews, identifying user goals and a robust competitor analysis. </p>
-		</div>
-		<div class="second second-small"><i class="fas fa-chart-pie"></i>
-			<h2><strong>2.Analysis</strong></h2>
-			<p class="skillstext">After gathering information and data, it’s time create user personas based on our research findings. Affinity mapping and empathy mapping would help to organise insights and data gathered, find hidden patterns and prioritize issues and solutions.
-		</div>
-		</div>
-		<div class="flex-box-skills-mob-two">
-		<div class="third third-small"><i class="fa fa-paint-brush" aria-hidden="true"></i>
-			<h2><strong>3.Create</strong></h2>
-			<p class="skillstext">Using prototyping tools including Figma, Sketch, Invision and others is a way to give all the gathered information a basic shape by creating wireframes, lo-fi mockups and interactive prototypes and defining the hierarchy of the elements.
-</p>
-		</div>
-		<div class=" forth forth-small"><i class="fa fa-cogs" aria-hidden="true"></i>
-			<h2><strong>4.Testing</strong></h2>
-			<p class="skillstext">Testing can help to understand how successfully users carrying out tasks and is an essential part of the process. There are various usability testing methods to choose from in order to see if there are any flaws in the product, and see if the product meets user's expectations.</p>
-		</div>
-		</div>
-		<div class=" fifth-small"><i class="fa far fa-rocket"></i>
-			<h2><strong>5.Launch</strong></h2>
-			<p class="skillstext">This phase involves deploying the product or feature to users, followed by continuous monitoring and performance assessment. Post-launch evaluation is conducted through the analysis of key metrics (such as those provided by tools like Amplitude and Hotjar) and the collection of user feedback. </p>
-		</div>
-		</div>
+<section id="process" class="py-24 bg-white relative overflow-hidden">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="text-center mb-16">
+            	<h1 id="process" class="process"><strong>My Design Process</strong></h1>
+                <h3>A systematic approach to solving complex problems through design thinking and user-centered methodologies.
+                </h3>
+            </div>
+
+            <div class="relative">
+                <div class="process-line md:block"></div>
+
+                <!-- Step 1 -->
+                <div class="relative mb-12 md:mb-24">
+                    <div class="md:flex items-center justify-between">
+                        <div class="md:w-5/12 md:text-right pr-8 mb-4 md:mb-0">
+                            <h3 class="process-header">1. Discover</h3>
+                            <p>User research, stakeholder interviews, competitive analysis, and defining the problem space.</p>
+                        </div>
+                        <div class="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center border-4 border-white shadow-lg z-10">
+                            <i data-lucide="search" class="w-5 h-5 "></i>
+                        </div>
+                        <div class="md:w-5/12 pl-8 md:pl-8 md:ml-auto">
+                            <div class="bg-slate-50 p-4 rounded-lg border border-slate-100">
+                                <ul class="text-sm text-secondary space-y-1">
+                                    <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4  text-blue-600"></i> User Interviews</li>
+                                    <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4  text-blue-600"></i> Survey Analysis</li>
+                                    <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4  text-blue-600"></i> Persona Creation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="relative mb-12 md:mb-24">
+                    <div class="md:flex items-center justify-between flex-row-reverse">
+                        <div class="md:w-5/12 md:text-left pl-8 mb-4 md:mb-0">
+                            <h3 class="process-header">2. Define</h3>
+                            <p>Synthesizing research insights, creating user journeys, and establishing design requirements.</p>
+                        </div>
+                        <div class="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center border-4 border-white shadow-lg z-10">
+                            <i data-lucide="target" class="w-5 h-5 text-purple-600"></i>
+                        </div>
+                        <div class="md:w-5/12 pr-8 md:pr-8 md:mr-auto">
+                            <div class="bg-slate-50 p-4 rounded-lg border border-slate-100">
+                                <ul class="text-sm text-secondary space-y-1">
+                                    <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-purple-600"></i> Journey Mapping</li>
+                                    <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-purple-600"></i> Problem Statements</li>
+                                    <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-purple-600"></i> Success Metrics</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="relative mb-12 md:mb-24">
+                    <div class="md:flex items-center justify-between">
+                        <div class="md:w-5/12 md:text-right pr-8 mb-4 md:mb-0">
+                            <h3 class="process-header">3. Ideate</h3>
+                            <p>Brainstorming solutions, sketching concepts, and exploring multiple design directions.</p>
+                        </div>
+                        <div class="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center border-4 border-white shadow-lg z-10">
+                            <i data-lucide="lightbulb" class="w-5 h-5 text-orange-600"></i>
+                        </div>
+                        <div class="md:w-5/12 pl-8 md:pl-8 md:ml-auto">
+                            <div class="bg-slate-50 p-4 rounded-lg border border-slate-100">
+                                <ul class="text-sm text-secondary space-y-1">
+                                    <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-orange-600"></i> Crazy 8s</li>
+                                    <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-orange-600"></i> Storyboarding</li>
+                                    <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-orange-600"></i> Concept Testing</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="relative mb-12 md:mb-24">
+                    <div class="md:flex items-center justify-between flex-row-reverse">
+                        <div class="md:w-5/12 md:text-left pl-8 mb-4 md:mb-0">
+                            <h3 class="process-header">4. Prototype</h3>
+                            <p>Building wireframes, high-fidelity mockups, and interactive prototypes for testing.</p>
+                        </div>
+                        <div class="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-12 h-12 bg-green-100 rounded-full flex items-center justify-center border-4 border-white shadow-lg z-10">
+                            <i data-lucide="pen-tool" class="w-5 h-5 text-green-600"></i>
+                        </div>
+                        <div class="md:w-5/12 pr-8 md:pr-8 md:mr-auto">
+                            <div class="bg-slate-50 p-4 rounded-lg border border-slate-100">
+                                <ul class="text-sm text-secondary space-y-1">
+                                    <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600"></i> Wireframing</li>
+                                    <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600"></i> UI Design</li>
+                                    <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600"></i> Interactive Prototypes</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="relative">
+                    <div class="md:flex items-center justify-between">
+                        <div class="md:w-5/12 md:text-right pr-8 mb-4 md:mb-0">
+                            <h3 class="process-header">5. Test & Iterate</h3>
+                            <p>Usability testing, gathering feedback, and refining designs based on real user data.</p>
+                        </div>
+                        <div class="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center border-4 border-white shadow-lg z-10">
+                            <i data-lucide="refresh-cw" class="w-5 h-5 text-pink-600"></i>
+                        </div>
+                        <div class="md:w-5/12 pl-8 md:pl-8 md:ml-auto">
+                            <div class="bg-slate-50 p-4 rounded-lg border border-slate-100">
+                                <ul class="text-sm text-secondary space-y-1">
+                                    <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-pink-600"></i> Usability Testing</li>
+                                    <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-pink-600"></i> A/B Testing</li>
+                                    <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-pink-600"></i> Design Handoff</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 
 
 <div class="fullwidth">
 <div class="container">
-	<div class="porfolio text-center">
-		<h1 id="portfolio" class="skills"><strong>My recent work</strong></h1>
+	<div class="porfolio top-mar text-center">
+		<h1 id="portfolio" class="portfolio"><strong>My recent work</strong></h1>
 		<h3>Want to see more of my work? <a class="mail" href="mailto:ch.iordanis@gmail.com"> Email me.</a> </h3>
 		</div>
 
@@ -149,8 +232,8 @@
 	<p class="leftalign">This project focused on improving chart interactions in Wood Mackenzie’s Lens platform by identifying where users struggled. Through user research, analytics, session recordings, and heuristic evaluations, guided by Double Diamond and Lean UX, UX improvements enhanced discoverability, clarified mental models, reduced friction, and increased engagement with complex data.</p>
 	<br>
 	<div class="link-box">
-				<div class="caselink"><a class="primary" href="https://iordanisch.github.io/woodmac/" ><strong>CASE STUDY</strong></a></div>
-				<div class="sitelink"><a class="secondary" href="https://www.woodmac.com/" target="_blank"><strong> VISIT WEBSITE</strong></a></div>
+				<div class="caselink"><a class="primary" href="https://iordanisch.github.io/woodmac/" >Case study</a></div>
+				<div class="sitelink"><a class="secondary" href="https://www.woodmac.com/" target="_blank">Visit website</a></div>
 			</div>	
 </div>
 <div class="port-second"><img class="mac-img img-responsive" src="https://github.com/iordanisch/woodmac/blob/main/Mac.png?raw=true" alt="woodmac">
@@ -170,8 +253,8 @@
 				<p class="leftalign">As the product lead my responsibility was to improve the product and find out what works and what doesn't for the users. To do so I had to do user research, competitor analysis and use various testing methods such as user testing and A/B testing. Based on the results UX amends were made and new functionalities added to the platform making the overall journey easier for the users.</p>
 				<br>
 				<div class="link-box">
-				<div class="caselink"><a class="primary" href="https://iordanisch.github.io/LendingCrowd-case-study/" ><strong>CASE STUDY</strong></a></div>
-				<div class="sitelink"><a class="secondary" href="https://www.lendingcrowd.com/"  target="_blank"><strong>VISIT WEBSITE</strong></a></div>
+				<div class="caselink"><a class="primary" href="https://iordanisch.github.io/LendingCrowd-case-study/" >Case study</a></div>
+				<div class="sitelink"><a class="secondary" href="https://www.lendingcrowd.com/"  target="_blank">Visit website</a></div>
 			</div>
 			</div>
 			<div class="port-second-lc"><img class="img-responsive" src="https://raw.githubusercontent.com/iordanisch/ch.iordanis/gh-pages/LendingCrowd.png" alt="Lendingcrowd">
@@ -190,8 +273,8 @@
 				<p class="leftalign">My role as the UX designer in a fast paced agile environment, required efficiency and a very well organized day to day pipeline plan. From conducting different UX research methods to writing user stories, from prototyping to testing and evaluating, I had to improve the overall user journey and make the experience more user friendly.  </p>
 				<br>
 				<div class="link-box">
-				<div class="caselink"><a class="primary" href="https://iordanisch.github.io/work-in-progress/"><strong>CASE STUDY</strong></a></div>
-				<div class="sitelink"><a class="secondary" href="https://www.fiduciarytrust.com/" target="_blank"><strong>VISIT WEBSITE</strong></a></div>
+				<div class="caselink"><a class="primary" href="https://iordanisch.github.io/work-in-progress/">Case study</a></div>
+				<div class="sitelink"><a class="secondary" href="https://www.fiduciarytrust.com/" target="_blank">Visit website</a></div>
 			</div>
 			</div>
 			<div class="port-second"><img class="img-responsive" src="https://github.com/iordanisch/ch.iordanis/blob/gh-pages/Franklin%20pc.jpg?raw=true" alt="Franklin Templeton">
@@ -270,3 +353,6 @@
 </div>
 </body>
 </html>
+ <script>
+        lucide.createIcons();
+    </script>
