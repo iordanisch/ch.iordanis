@@ -50,7 +50,11 @@ body{
 }
 
 
-
+.fab, .far {
+  font-weight: 400;
+  font-size: 35px;
+  color: #39a17a;
+}
 
 
 
@@ -62,9 +66,20 @@ body{
 /* Style the form element with a border around it */
 /* Add some padding and a grey background color to containers */
 
+
+#message {
+  width: 100%;
+  padding: 12px;
+  margin-top: 23px;
+  margin:23px 0px 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  outline: 0;
+}
 #phone {
   border-radius: 4px;
-  margin-bottom: 23px;
+  margin: 8px 0;
   width: 100%;
   padding: 12px;
   display: inline-block;
@@ -87,7 +102,7 @@ body{
 }
 
 /* Style the input elements and the submit button */
-input[type=text], input[type=number], input[type=email], input[type=submit],#message  {
+input[type=text], input[type=number], input[type=email], input[type=submit] {
 width: 100%;
 padding: 12px;
 margin: 8px 0;
@@ -135,20 +150,31 @@ transition: 1s;
   display: none;
 }
 
-.was-validated :placeholder-shown:invalid ~ .empty-feedback {
+.was-validated :placeholder-shown:invalid ~ .empty-feedback, .phonevalid, .emailvalid {
   display: block;
   text-align: left;
   color: #dc3545;
-  font-weight: bold;
   top: -5px;
   position: relative;
-  font-size: 10px;
-
+  font-size: 12px!important;
 }
 #result{
   color: #999;
-  font-size: 10px;
+  font-size: 12px;
   /*text-shadow: 1px 1px #0000002e;*/
+}
+
+.empty-feedback,
+.invalid-feedback {
+    display: none;
+}
+
+.was-validated :placeholder-shown + .empty-feedback {
+    display: block;
+}
+
+.was-validated :invalid:not(:placeholder-shown) ~ .invalid-feedback {
+    display: block;
 }
 
 /*------------end of form styling------------*/

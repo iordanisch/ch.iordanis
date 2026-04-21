@@ -144,6 +144,7 @@ lucide.createIcons();
             object[key] = value;
           });
           const json = JSON.stringify(object);
+          result.style.display = "block";
           result.innerHTML = "Please wait...";
 
           fetch("https://api.web3forms.com/submit", {
