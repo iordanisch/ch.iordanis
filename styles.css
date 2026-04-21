@@ -55,7 +55,10 @@ body{
   font-size: 35px;
   color: #39a17a;
 }
-
+.fas.fa-envelope, .fas.fa-mobile-alt, .fas.fa-map-marker-alt {
+  font-size: 20px;
+  margin-right: 8px;
+}
 
 
 
