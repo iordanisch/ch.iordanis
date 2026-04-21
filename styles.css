@@ -826,7 +826,7 @@ text-align: center;
   margin: 0px;
   padding: 0px;
 }
-.md\:w-5\/12.pr-8.md\:pr-8.md\:mr-auto {
+.md\:w-5\/12.pr-8.md\:pr-8.md\:mr-auto, .md\:w-5\/12.md\:text-left.pl-8.mb-4.md\:mb-0{
   padding: 0px;
 }
         }
