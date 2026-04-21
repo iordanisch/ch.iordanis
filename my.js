@@ -19,7 +19,7 @@ $(document).ready(function(){
 // arrow apear after scrolling
 $(function() {
 
-  $('#atestbox').hide();
+  $('#joojojasd').hide();
 
  $(window).scroll(function() {
 
@@ -28,12 +28,12 @@ $(function() {
   if (scroll >=900) {
 
   
-  $('#atestbox').fadeIn();
+  $('#joojojasd').fadeIn();
 
   } else {
 
  
-  $('#atestbox').fadeOut();
+  $('#joojojasd').fadeOut();
 
  }
 
