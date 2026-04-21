@@ -56,7 +56,7 @@ $(document).ready(function () {
     else
         ($('#navbarid').fadeIn(3000));
     ($('.headerbox').fadeIn(3000));
-    ($('.skills').fadeIn(3000));
+    ($('.process').fadeIn(3000));
     
    
 });

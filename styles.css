@@ -336,7 +336,7 @@ transition: 1s;
 }
 
 
-#navbarid, #askills {
+#navbarid, #askills, .process {
   position: relative;
    left: -1600px;
     -webkit-animation: slide 1.5s forwards;
